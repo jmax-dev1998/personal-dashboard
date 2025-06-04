@@ -2,6 +2,7 @@
   <div class="bg-[#D4EBF8] dark:bg-[#080326] min-h-screen">
     <Navbar />
     <HeroSection />
+    <Counter />
   </div>
 </template>
 
@@ -12,5 +13,8 @@ const Navbar = defineAsyncComponent(() =>
 );
 const HeroSection = defineAsyncComponent(() =>
   import("@/components/layouts/HeroSection.vue")
+);
+const Counter = defineAsyncComponent(() =>
+  import("@/components/layouts/Counter.vue")
 );
 </script>

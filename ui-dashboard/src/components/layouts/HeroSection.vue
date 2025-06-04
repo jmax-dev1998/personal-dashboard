@@ -1,5 +1,6 @@
 <template>
   <section
+    data-aos="zoom-in"
     class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0"
   >
     <header
@@ -20,19 +21,12 @@
           >
         </h1>
         <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
-          Sed eget sollicitudin elit, id tempor libero. Nam urna diam, dignissim
-          sed elit non, tristique laoreet augue. Integer fringilla felis erat,
-          non accumsan quam laoreet quis. Fusce id tincidunt nisl. Interdum et
-          malesuada fames ac ante ipsum primis in faucibus. Duis in ex quis
-          lorem accumsan fermentum eu eget augue. Praesent at vulputate tortor.
-          Phasellus molestie dapibus varius. Duis mi lorem, sagittis in
-          tincidunt sit amet, consectetur non elit. Suspendisse congue erat
-          nibh, sed euismod mauris ornare id. Ut elit nulla, commodo lacinia
-          vulputate nec, sodales ut dolor. Integer pharetra orci risus, quis
-          pellentesque lorem posuere nec. Phasellus posuere posuere dolor
-          lobortis pretium. In hac habitasse platea dictumst. Fusce iaculis odio
-          mi, a vehicula urna semper eu. Aliquam mi enim, elementum non lorem
-          sed, gravida scelerisque lacus.
+          I have been working within the field of engineering for the better
+          part of a decade. After obtaining my degree, I immediately myself
+          within the modern workforce to develop a hands-on level of experience.
+          I am highly motivated and excellent at solving complex problems. A
+          portion of my experience includes electrical and telecommunication
+          engineering.
         </p>
         <div class="mt-6 flex justify-center lg:justify-start">
           <Button label="Hire Me" />
