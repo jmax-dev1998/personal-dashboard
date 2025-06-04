@@ -3,6 +3,7 @@
     <Navbar />
     <HeroSection />
     <Counter />
+    <Services />
   </div>
 </template>
 
@@ -16,5 +17,8 @@ const HeroSection = defineAsyncComponent(() =>
 );
 const Counter = defineAsyncComponent(() =>
   import("@/components/layouts/Counter.vue")
+);
+const Services = defineAsyncComponent(() =>
+  import("@/components/layouts/Services.vue")
 );
 </script>
