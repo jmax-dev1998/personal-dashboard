@@ -18,7 +18,6 @@
   </button>
 </template>
 <script setup>
-import { defineProps } from "vue";
 defineProps({
   label: {
     type: String,
